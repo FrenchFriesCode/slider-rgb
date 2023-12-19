@@ -36,7 +36,7 @@ inputVerde.addEventListener('change', (e) => {
 });
 
 //Para actualizar Azul (B).
-inputAzul = addEventListener('change', (e) => {
+inputAzul.addEventListener('change', (e) => {
     azul = e.target.value;
     textoAzul.innerText = azul;
     actualizarColor(rojo, verde, azul);
